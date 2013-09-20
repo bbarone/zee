@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phin Ziebell | Person of the year, 1985</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link href="style.css" rel="stylesheet" media="screen">
+
+    <!-- Anim8 -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="animate.css" rel="stylesheet">
+
+    <!-- Fontz -->
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic|Raleway:400,300,200,100,500,600,700,900,800' rel='stylesheet' type='text/css'>
+
+    <!-- Commandz -->
+
+    <script>
+      $(window).scroll(function() {
+        $('#phin').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("bigEntrance");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#mai').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("expandUp");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#polaroid').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("slideExpandUp");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#plane').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("slideLeft");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#cocktail').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("hatch");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#friends').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("fadeIn");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#nachos').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("slideDown");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('#phinmai').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+400) {
+            $(this).addClass("bigEntrance");
+          }
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+
+    <div class="header">
+    <h1>Happy birthday, Phin</h1>
+    <h2>Scroll down to see all your favourite things</h2>
+    </div>
+
+    <div class="row">
+
+      <img src="phin.jpg" class="img-responsive" id="phin" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="mai.jpg" class="img-responsive" id="mai" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="polaroid.jpg" class="img-responsive" id="polaroid" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="plane.jpg" class="img-responsive" id="plane" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="cocktail.jpg" class="img-responsive" id="cocktail"  />
+
+    </div>
+
+    <div class="row">
+
+      <img src="friends.jpg" class="img-responsive" id="friends" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="nachos.jpg" class="img-responsive" id="nachos" />
+
+    </div>
+
+    <div class="row">
+
+      <img src="phinmai.jpg" class="img-responsive" id="phinmai" />
+
+    </div>
+
+    <div class="header">
+    <h1>I hope you have a premium day</h1>
+    <h2>From Ben</h2>
+    </div>
+
+  </body>
+</html>
